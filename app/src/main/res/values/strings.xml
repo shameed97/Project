@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">shaMeedUtil</string>
+    <string name="telephone">Telephone</string>
+    <string name="phone_call">Phone Call</string>
+    <string name="read_contacts">Read Contacts</string>
+    <string name="phone_details">Phone Details</string>
+    <string name="send_email">Send Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_mobile_number">Enter Mobile Number...</string>
+    <string name="call">Call</string>
+    <string name="phone_details_will_appear_hear">Phone Details Will Appear Hear...!</string>
+    <string name="enter_reciepient">Enter Reciepient...</string>
+    <string name="enter_subject">Enter Subject...</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="send">Send</string>
+    <string name="camera">Camera</string>
+    <string name="recording_videos">Recording Videos</string>
+    <string name="taking_camera">Taking Camera</string>
+    <string name="voice_recorder">Voice Recorder</string>
+    <string name="click">Click</string>
+    <string name="video">Video</string>
+    <string name="whats_in_your_mind">Whats in your mind..</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="msg_error">Your device doesn\'t support flash light!</string>
+    <string name="lbl_ok">OK</string>
+    <string name="voice_to_text">Voice To Text</string>
+    <string name="text_to_voice">Text To voice</string>
+    <string name="enter_the_text">Enter the Text....</string>
+    <string name="speach">Speach</string>
+    <string name="text_will_appear_here">Text Will Appear Here..</string>
+    <string name="speak">Speak</string>
+    <string name="change_wifi_state">Change WIFI State</string>
+    <string name="enable_wifi">Enable Wifi</string>
+    <string name="disable_wifi">Disable Wifi</string>
+    <string name="wifi_informations">Wifi Informations</string>
+    <string name="wifi_info_will_appear_here">WIFI Info Will Appear Here...!</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="enter_your_ideas">Enter Your Ideas...</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="minus">-</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="x">x</string>
+    <string name="dot">.</string>
+    <string name="_0">0</string>
+    <string name="percentage">%</string>
+    <string name="plus">+</string>
+    <string name="divide">/</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="del">Del</string>
+    <string name="equal">=</string>
+
+</resources>

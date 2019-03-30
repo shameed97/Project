@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageButton
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:background="@color/b1"
+            android:onClick="phoneFunctions"
+            android:src="@drawable/icon_phone"
+            android:text="@string/telephone"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/mul_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="190dp"
+            android:background="@color/b2"
+            android:onClick="mediaFunction"
+            android:src="@drawable/music_icon"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/ph_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="380dp"
+            android:background="@color/b3"
+            android:src="@drawable/map_icon"
+            android:textSize="22sp"
+            android:onClick="mapFunction"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/kk_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="570dp"
+            android:background="@color/b4"
+            android:src="@drawable/flash_icon"
+            android:textSize="22sp"
+            android:onClick="lightFunction"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/cc_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="205dp"
+            android:background="@color/b5"
+            android:onClick="alarmFunction"
+            android:src="@drawable/alarm_icon"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/vv_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="190dp"
+            android:background="@color/b6"
+            android:src="@drawable/note_icon"
+            android:onClick="editFunction"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/zz_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="380dp"
+            android:background="@color/b7"
+            android:src="@drawable/browser_icon"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:onClick="browserFunction"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="570dp" />
+
+        <ImageButton
+            android:id="@+id/op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="570dp"
+            android:background="@color/b8"
+            android:src="@drawable/voice_icon"
+            android:textSize="22sp"
+            android:onClick="speachFunction"
+            android:textStyle="italic" />
+        <ImageButton
+            android:id="@+id/nn_op"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="760dp"
+            android:background="@color/b9"
+            android:src="@drawable/icon_wifi"
+            android:textSize="22sp"
+            android:onClick="WifiFunction"
+            android:textStyle="italic" />
+        <ImageButton
+            android:id="@+id/kp"
+            android:layout_width="207dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="760dp"
+            android:background="@color/b10"
+            android:src="@drawable/icons_calculator"
+            android:textSize="22sp"
+            android:onClick="calcFunction"
+            android:textStyle="italic" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
